@@ -1,38 +1,33 @@
 # Good README Generator
 
   ## Description:
-  ### This is a console application, created to generate a README app that has the required project information easily without having to copy and paste it over and over while keeping the required fields
+  A consule application created to generate README files that follow a specific format.
 
-  #### ![license image](https://img.shields.io/badge/License--color=orange.svg)
-  ![screenshot](images/readme.png)
+  ![screenshot]((https://img.youtube.com/vi/fA13AVR2Fb8/maxresdefault.jpg))
 
   ## Table of Contents:
-  ###     [1. Installation](#Installation)
-  ###     [2. Usage](#Usage)
-  ###     [3. License](#License)
-  ###     [4. Contributing](#Contributing)
-  ###     [5. Testing](#Tests)
-  ###     [6. Questions](#Questions)
+  * [1. Installation](#installation)
+  * [2. Usage](#usage)
+  * [3. License](#license)
+  * [4. Contributing](#contributing)
+  * [5. Testing](#tests)
+  * [6. Questions](#questions)
 
   ### 1. Installation
-  #### Go to the Good-README-Generator folder and into Develop and run npm install
+  Download code to local computer and run npm install in console and then enter 'node index.js' to run application. 
 
   ### 2. Usage
-  #### To create duplicative information
+  Navtigate to the folder it's housed in within Git Bash or your native console, npm install an then run node index.js
 
   ### 3. License
-  #### null
-
-  #### This application is licensed by:
-  #### ![license image](https://img.shields.io/badge/License--color=orange.svg)
+  null
 
   ### 4. Contributing
-  #### Julian Ivey
+  Julian Ivey
 
   ### 5. Tests
-  #### By using console.log to verify the data.
+  By using console.log to verify input fields
 
   ### 6. Questions
-  #### With any questions send an e-mail to joolyen@gmail.com
-  #### Visit https://github.com/joolyen
+  With any questions send an e-mail to joolyen@gmail.com or visit to review files https://github.com/joolyen
 
