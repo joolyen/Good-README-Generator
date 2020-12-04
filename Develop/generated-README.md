@@ -1,9 +1,9 @@
-# adafadsasd
+# Good README Generator
 
   ## Description:
-  ### adasdas
+  ### This is a console application, created to generate a README app that has the required project information easily without having to copy and paste it over and over while keeping the required fields
 
-  #### ![license image](https://img.shields.io/badge/License-MIT,ISC,Creative Commons,European Union Public License 1.1-color=orange.svg)
+  #### ![license image](https://img.shields.io/badge/License--color=orange.svg)
   ![screenshot](images/readme.png)
 
   ## Table of Contents:
@@ -15,24 +15,24 @@
   ###     [6. Questions](#Questions)
 
   ### 1. Installation
-  #### adadasd
+  #### Go to the Good-README-Generator folder and into Develop and run npm install
 
   ### 2. Usage
-  #### asasd
+  #### To create duplicative information
 
   ### 3. License
-  #### MIT
+  #### null
 
   #### This application is licensed by:
-  #### ![license image](https://img.shields.io/badge/License-MIT,ISC,Creative Commons,European Union Public License 1.1-color=orange.svg)
+  #### ![license image](https://img.shields.io/badge/License--color=orange.svg)
 
   ### 4. Contributing
-  #### adas
+  #### Julian Ivey
 
   ### 5. Tests
-  #### adasda
+  #### By using console.log to verify the data.
 
   ### 6. Questions
-  #### With any questions send an e-mail to adasda
-  #### Visit https://github.com/adasd
+  #### With any questions send an e-mail to joolyen@gmail.com
+  #### Visit https://github.com/joolyen
 
