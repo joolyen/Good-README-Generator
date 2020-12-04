@@ -5,7 +5,7 @@ function generateMarkdown(answers) {
   ## Description:
   ${answers.description}
 
-  ![screenshot]((https://img.youtube.com/vi/fA13AVR2Fb8/maxresdefault.jpg))
+  ![screenshot](https://img.youtube.com/vi/fA13AVR2Fb8/maxresdefault.jpg)
 
   ## Table of Contents:
   * [1. Installation](#installation)
