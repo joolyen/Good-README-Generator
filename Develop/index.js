@@ -61,27 +61,7 @@ var questions = [
     },
 ];
 
-// function init(){
-//     inquirer.prompt(questions).then((answers) => {
-//         fs.writeFile('./generated/README.md', generateMarkdown(answers));
-//     });
-// };
-
-// // function to write README file
-// function writeToFile(fileName, data) {
-//     fs.writeFile(fileName, data, function(err, buf) {
-//       if (err) console.log(err)
-//       if (buf) console.log(buf)
-//     });
-//   }
-
-// init();
-
-try {
-    var answers = await inquirer.prompt(questions);
-    let file = `IG_USERNAME=${answers.username}\nIG_PASSWORD=${answers.password}\n#ONLINE_MODE=true`;
-    await fs.promises.writeFile("./generated/README.md", file);
-    await login();
-  } catch (error) {
-    console.error("Any error::", error);
-  }
+inquirer.prompt(questions).then((answers) => {
+    console.log(answers); 
+    //fs.writeFile('./generated/README.md', generateMarkdown(answers));
+});
