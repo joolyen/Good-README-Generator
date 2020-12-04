@@ -9,7 +9,7 @@ This is a console application, created to generate a README app that has the req
 ## Technologies Used: 
 Javascript, Node.js, NPM Package Inquirer 
 
-[![Watch the video](https://img.youtube.com/vi/fA13AVR2Fb8/maxresdefault.jpg](https://youtu.be/fA13AVR2Fb8)
+[![Watch the video](https://img.youtube.com/vi/fA13AVR2Fb8/maxresdefault.jpg)](https://youtu.be/fA13AVR2Fb8)
 
 ## Contact Info:
 joolyen@gmail.com
