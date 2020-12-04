@@ -1,12 +1,13 @@
 // passing requirements
-var fs = require("fs");
-var inquirer = require('inquirer');
+const fs = require("fs");
+const inquirer = require('inquirer');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // intro message
 console.log('Hi! Let\'s generate a README.md file together.' );
 
 // questions for the end user
-var questions = [
+const questions = [
     {
       type: "input",
       name: 'title',
@@ -35,8 +36,7 @@ var questions = [
         'MIT', 
         'ISC', 
         'Creative Commons', 
-        'European Union Public License 1.1', 
-        'Do What the F*ck You Want to Public License'
+        'European Union Public License 1.1'
       ],
     },
     {
@@ -61,7 +61,8 @@ var questions = [
     },
 ];
 
-inquirer.prompt(questions).then((answers) => {
-    console.log(answers); 
-    //fs.writeFile('./generated/README.md', generateMarkdown(answers));
-});
+inquirer.prompt(questions).then(answers => {
+    fs.writeFile('generated-README.md', generateMarkdown(answers),function (err){
+        console.log(err)
+    })
+})
