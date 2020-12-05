@@ -1,4 +1,4 @@
-## Good-README-Generator
+## Good README Generator
 
 #### https://github.com/joolyen/Good-README-Generator/
 #### https://joolyen.github.io/Good-README-Generator/
